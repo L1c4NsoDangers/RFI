@@ -19,6 +19,10 @@
     ECHO "<li>Print Out System Infomation: (\"uname -a\")</li>";
     ECHO "<b><dl><dt>\"ls\" command:</dt></b>";
     ECHO "<dd><pre>" .$ls_output ."</pre></dd>";
+    ECHO "<b><dl><dt>\"ls /var/www/html/rfi1/\" command:</dt></b>";
+    ECHO "<dd><pre>" .$ls0_output ."</pre></dd>";
+    ECHO "<b><dl><dt>\"ls /var/www/html/rfi2/\" command:</dt></b>";
+    ECHO "<dd><pre>" .$ls1_output ."</pre></dd>";
     ECHO "<dt><b>Who Am I?</b></dt>"; 
     ECHO "<dd>".$whoami_output. "</dd>";
     ECHO "<b><dt>Present Working Directory:</dt></b>";
